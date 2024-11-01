@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background_color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+#rosa {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    justify-content: end;
+    padding: 10px;
+    background-color: rgb(226, 205, 211);
+}
+
+body.dark-mode #rosa {
+    background-color: rgb(131, 12, 81);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item1 {
+    margin-left: 12%;
+}
+
+#container2 {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+#OBJETIVO {
+    font-size: 35px;
+}
+
+#Formação {
+    font-size: 35px;
+}
+
+#CURSOS_EXTRAS {
+    font-size: 30px;
+}
+
+#Habilidades {
+    font-size: 35px;
+}
+
+img {
+    width: 1%;
+}
+
+#Maria_Eduarda {
+    font-size: 45px;
+    width: fit-content;
+}
+
+#Portfolio {
+    text-align: center;
+    font-size: 35px;
+}
+
+.section {
+    height: 500px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.target {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #333;
+    margin-top: 1000px;
+
+}
+
+#total1 {
+    text-align: center;
+}
+
+#total2 {
+    text-align: center;
+}
+
+#total3 {
+    text-align: center;
+    grid-column: 3fr;
+}
+
+#papapa {
+    background-color: rgb(226, 205, 211);
+    padding: 10px;
+    border-radius: 40%;
+    transition: transform .2s;
+}
+
+#papapa:hover {
+    transform: scale(1.5);
+}
+
+#lalala {
+    width: fit-content;
+    font-size: 20px;
+}
+
+
+.lista2 {
+    width: fit-content;
+    font-size: 19px;
+}
+
+#sites {
+    width: 100%;
+    border: 2px solid #333;
+}
+
+#perfil img {
+    border-radius: 200px;
+}
+
+#contato {
+    width: 100%;
+    align-items: center;
+    margin-left: 30%;
+}
+
+#limpar {
+    padding: 10px;
+    background-color: #ff7cf4;
+    border: #ff7cf4 solid 2px;
+    border-radius: 20%;
+    font-size: 20px;
+}
+
+#enviar {
+    padding: 10px;
+    background-color: #ff7cf4;
+    border: #ff7cf4 solid 2px;
+    border-radius: 20%;
+    font-size: 20px;
+}
+
+#label {
+    font-size: 20px;
+}
+
+#telefone {
+    width: 30%;
+    padding: 10px;
+}
+
+#email {
+    width: 30%;
+    padding: 10px;
+}
+
+#data {
+    padding: 10px;
+}
+
+#cpf {
+    width: 30%;
+    padding: 10px;
+}
+
+#senha {
+    width: 30%;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    #sites {
+        width: 400px;
+    }
+
+}
